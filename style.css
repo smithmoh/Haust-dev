@@ -383,3 +383,133 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 20px;
 }
+
+/* mobile phones */
+@media only screen and (max-width: 600px) {
+    .hero{
+        height: 140vh;
+        width: 100%;
+        background-image: url(images/good.jpg);
+    }
+    .hero img{
+        visibility: hidden;
+        display: none;
+    }
+    .logo{
+        font-size: 20px;
+        margin-top: -80%;
+    }
+    nav ul li{
+        margin-left: 95%;
+    }
+    
+    .btn{
+        border: 1px solid transparent;
+        padding: 3px 8px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-top: -80%;
+    }
+    .content{
+        top: 90%;
+    }
+    h1{
+        font-size: 55px;
+    }
+    h3{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    h4{
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+    .newslatter form input:first-child{
+        width: 85%;
+        padding: 14px 130px 14px 15px;
+        border: 1px solid #f9004d;
+        padding: 10px   25px;
+    }
+    .newslatter form input:last-child{
+        padding: 8px 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        top: 255px;
+        right: 50px;
+    }
+    .newslatter{
+        margin-bottom: -50%;
+    }
+    .About img{
+        visibility: collapse;
+        display: none;
+    }
+    .about-text h2{
+        font-size: 70px;
+    }
+    .about-text h5{
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .about-text p{
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 15px;
+    }
+    .title h2{
+        font-size: 70px;
+        width: 35px;
+        margin-left: 2%;
+    }
+    .box{
+        display: grid;
+    }
+
+    .contact-me p{
+        font-size: 30px;
+        margin-left: 2%;
+    }
+    .contact-me .button-two{
+        border: 1px solid transparent;
+        padding: 8px 15px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-left: -55%;
+    }
+    footer p:nth-child(2){
+        font-size: 18px;
+        width: 450px;
+    }
+    .end{
+        font-size: 15px;
+    }
+
+}
+
+/* tablet */
+@media only screen and (max-width: 800px) {
+    .hero{
+        width: 100%;
+    }
+    .About{
+        width: 100%;
+    }
+    .service{
+        width: 100%;
+    }
+    .contact-me{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
